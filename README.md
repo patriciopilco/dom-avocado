@@ -55,4 +55,28 @@ const nombres = async ()=>{
             listaElemento.push(container)
         }
     )
+    #Añadir lista elementos a div del app
+    appNode.append(...listaElemento);
+}
+
 ```
+
+## Personalizar con estilos 
+
+```bash
+    #Uso de estilos de manera directa
+    title.style = 'font-size: 2rem'
+```
+```bash            
+    #Uso de estilos mediante objetos 
+    title.style.fontSize = '2rem'
+```
+```bash            
+    #Uso de estilos mediante className
+    title.className = "title-style"
+```
+```bash            
+    #Uso de estilos mediante tailwindcss
+    title.className = "text-xl"
+```            
+
